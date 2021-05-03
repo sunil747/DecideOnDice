@@ -1,0 +1,173 @@
+
+/* element wise css */
+body {
+  text-align: center!important;
+  font-family: 'Dosis', sans-serif!important;
+  font-weight: 400;
+}
+
+h1{
+   margin-top:2%!important;
+  color: white!important;
+  margin-left:12%;
+  margin-right:12%;
+
+}
+
+
+
+/* class wise css */
+.navbar-brand{
+  font-family:'Cinzel Decorative', cursive;
+  font-weight: 900;
+}
+
+.bck-img{
+  /* background-image: url('https://images.pexels.com/photos/910299/pexels-photo-910299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'); */
+  background-image: url("../images/black-tile.jpg");
+  height: 500px;
+  padding: 3% 15% 6%;
+}
+
+
+.main-headding{
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+
+.dice-img{
+  height: 20%;
+  margin-top: 1%;
+
+}
+
+.peach-gradient {
+  border: 0;
+  margin-top: 2%;
+  font-size: 1.5rem!important;
+  font-family:'Cinzel Decorative', cursive;
+  background: linear-gradient(40deg, #ffd86f, #fc6262) !important;
+}
+.peach-gradient:hover{
+  border: 0;
+  background: linear-gradient(40deg, #c7ef88, #3d500e) !important;
+}
+
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+}
+
+
+.black-section{
+  background: black;
+  padding: 1% 15%;
+}
+
+
+.carousel-inner {
+    padding: 4% 15%;
+}
+.footer-icon{
+  color: white;
+  padding-top:2%;
+}
+.footer-txt{
+  color: white;
+  padding-bottom: 1%
+}
+
+/* class wise css */
+/* ---------------------------media query for smaller devices--------------------------------- */
+
+
+@media (max-width:1000px) {
+
+  body{
+    line-height: 2.5!important;
+  }
+
+  /* nav bar related detailed css */
+  .navbar-nav {
+    background-color: #b55463;
+  }
+
+  .navbar-dark .navbar-toggler {
+    background: #b95564;
+  }
+
+  .navbar-brand {
+    /* this inclues the text hence rem */
+    font-size: 3rem!important;
+    font-weight: 600;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+
+  .nav-link {
+    font-size: 3rem!important;
+  }
+
+
+
+  /* main section that involves backgraound and play button */
+  .bck-img {
+    height: 1200px;
+  }
+
+
+
+  .main-headding{
+    /* color: red!important; */
+    font-size: 4.5rem;
+    margin-top: 13%!important;
+  }
+
+  .dice-img {
+    height: 35%;
+  }
+
+  .btn-lg{
+
+    font-size: 4rem!important;
+    width: 50%
+  }
+
+
+
+/* all the css based on the why elements or corocesl part*/
+
+  #why{
+    height: 675px;
+
+  }
+
+  .carousel-inner {
+    padding: 18% 15%;
+
+}
+
+.testimonial-img {
+    padding-top: 8%;
+    width: 20%;
+    border-radius: 100%;
+}
+
+.h2, h2 {
+    font-size: 3rem!important;
+}
+
+}
