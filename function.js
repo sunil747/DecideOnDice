@@ -13,15 +13,16 @@ function changeOnClick(){
   image2_tag.setAttribute("src",randomDiceImage2)
 
   // logic begins here to see who wins
+  // logic begins here to see who wins
   if(random_number1>random_number2){
-    document.getElementById("tag_line").innerHTML = "You should go with option1";
+    document.getElementById("tag_line").innerHTML = "You should go with <span style='color: #f7a440;'>option1</span>";
   }
   else if (random_number1 < random_number2) {
-    document.getElementById("tag_line").innerHTML = "You should go with option2";
+    document.getElementById("tag_line").innerHTML = "You should go with <span style='color: #f7a440;'>option2</span>";
   }
   else
   {
-    document.getElementById("tag_line").innerHTML = "Its a tie! Try again";
+    document.getElementById("tag_line").innerHTML = "Its a <span style='color: #fb3640;'>tie!</span> Try again";
   }
 
 }
