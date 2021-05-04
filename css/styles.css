@@ -133,16 +133,16 @@ h1{
   .main-headding{
     /* color: red!important; */
     font-size: 4.5rem;
-    margin-top: 13%!important;
+    margin-top: 15%!important;
   }
 
   .dice-img {
-    height: 35%;
+    height: 40%;
   }
 
   .btn-lg{
 
-    font-size: 4rem!important;
+    font-size: 4.5rem!important;
     width: 50%
   }
 
